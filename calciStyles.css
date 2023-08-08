@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(226, 220, 220, 0.36);
+}
+.Main{
+    height: 500px;
+    width: 600px;
+    border: 3px solid gray;
+    margin: auto;
+    margin-top: 12%;
+    background-color: rgb(19, 130, 130);
+}
+.Container{
+    margin-top: 30px;
+}
+input{
+    height: 60px;
+    width: 250px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+.Keypad{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top:50px;
+}
+#Clear{
+    background-color: rgb(207, 207, 32);
+    grid-column: 1/3;
+}
+#C{
+    background-color: rgb(116, 130, 128);
+}
+#Result{
+    background-color: rgb(202, 211, 27);
+    grid-column: 3/5;
+}
+button{
+    margin:5px;
+    height: 35px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: beige;
+}
